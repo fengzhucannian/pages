@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body >
+
+<ul class="layui-nav">
+    <li class="layui-nav-item"><a href="../index.html">LIMENT'S BLOG</a></li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">WORK</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=work&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=work&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=work&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">POSTER</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=poster&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=poster&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=poster&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">DESIGN</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=design&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=design&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=design&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">ABOUT</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/cv.html">CV</a></dd>
+            <dd><a href="../html/contact.html">CONTACT</a></dd>
+        </dl>
+    </li>
+</ul>
+
+<div class="headernav" style="height:1px;line-height:1px;text-align:center;overflow:hidden;"></div>
+
+<!-- Swiper -->
+<div class="gallery-top-box">
+    <div class="swiper-container gallery-top">
+        <div id="upper" class="swiper-wrapper">
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<div class="gallery-thumbs-box">
+    <div class="swiper-container gallery-thumbs">
+        <div id="lower" class="swiper-wrapper">
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<!-- Swiper -->
+<div class="footernav clearfix" style="height:1px;overflow:hidden;">
+</div>
+
+<!-- Swiper JS -->
+<script src="../js/imageLoader.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../layui/layui.all.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/swiper.js"></script>
+<!--<script src="../js/imageLoader.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LiMeng's Blog</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <style>
+        .layui-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+        .avatar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+        .layui-col-md6 {
+            text-align: center;
+        }
+        .avatar img {
+            position: relative;
+            height: 300px;
+            width: 300px;
+            margin-top: 30%;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        #me {
+            height: 300px;
+            width: 500px;
+            margin-top: 40%;
+            text-align: left;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body class="layui-bg-black">
+<ul class="layui-nav">
+    <li class="layui-nav-item"><a href="../index.html">LIMENT'S BLOG</a></li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">WORK</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=work&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=work&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=work&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">POSTER</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=poster&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=poster&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=poster&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">DESIGN</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/display.html?type=design&year=2020">2020</a></dd>
+            <dd><a href="../html/display.html?type=design&year=2019">2019</a></dd>
+            <dd><a href="../html/display.html?type=design&year=2018">2018</a></dd>
+        </dl>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">ABOUT</a>
+        <dl class="layui-nav-child">
+            <dd><a href="../html/cv.html">CV</a></dd>
+            <dd><a href="../html/contact.html">CONTACT</a></dd>
+        </dl>
+    </li>
+</ul>
+<div class="layui-row avatar">
+    <div class="layui-col-md6">
+        <img class="layui-anim layui-anim-upbit" src="../images/work-2018/1.png">
+    </div>
+    <div class="layui-col-md6">
+        <div id="me" class="layui-anim layui-anim-upbit">
+            <h1>Li Meng</h1>
+            <p>Bachelor of design, OCAD University, Toronto, Canada. I have rich internship experience,
+                have completed different corporate logo design, cover design, widely praised.
+                I like reading, art, basketball.</p>
+        </div>
+    </div>
+</div>
+<script src="../layui/layui.all.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
